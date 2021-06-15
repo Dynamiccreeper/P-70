@@ -54,7 +54,7 @@ export default class WriteStoryScreen extends React.Component{
                
                 <TouchableOpacity
           style={styles.goButton}
-          onPress={this.speak}
+          onPress={alert("Your responce has been recorded")}
           >
           <Text style={styles.buttonText}>GO</Text>
         </TouchableOpacity>
