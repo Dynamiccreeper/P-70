@@ -3,7 +3,7 @@ import {createAppContainer} from 'react-navigation-tabs';
 import {StyleSheet,Text,View,Image} from 'react-native';
 import WriteStoryScreen from './screens/WriteStoryScreen'
 import ReadStoryScreen from './screens/ReadStoryScreen'
-import {createBottomTabNavigator} from 'react-navigation'
+import {createBottomTabNavigator} from 'react-navigation-tabs'
 
 export default function App() {
   return (
